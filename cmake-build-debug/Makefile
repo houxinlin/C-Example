@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/没有main函数的C程序.o: example/没有main函数的C程序.c.o
-.PHONY : example/没有main函数的C程序.o
+example/字符在字符串中出现的次数.o: example/字符在字符串中出现的次数.c.o
+.PHONY : example/字符在字符串中出现的次数.o
 
 # target to build an object file
-example/没有main函数的C程序.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/没有main函数的C程序.c.o
-.PHONY : example/没有main函数的C程序.c.o
+example/字符在字符串中出现的次数.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.o
+.PHONY : example/字符在字符串中出现的次数.c.o
 
-example/没有main函数的C程序.i: example/没有main函数的C程序.c.i
-.PHONY : example/没有main函数的C程序.i
+example/字符在字符串中出现的次数.i: example/字符在字符串中出现的次数.c.i
+.PHONY : example/字符在字符串中出现的次数.i
 
 # target to preprocess a source file
-example/没有main函数的C程序.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/没有main函数的C程序.c.i
-.PHONY : example/没有main函数的C程序.c.i
+example/字符在字符串中出现的次数.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.i
+.PHONY : example/字符在字符串中出现的次数.c.i
 
-example/没有main函数的C程序.s: example/没有main函数的C程序.c.s
-.PHONY : example/没有main函数的C程序.s
+example/字符在字符串中出现的次数.s: example/字符在字符串中出现的次数.c.s
+.PHONY : example/字符在字符串中出现的次数.s
 
 # target to generate assembly for a file
-example/没有main函数的C程序.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/没有main函数的C程序.c.s
-.PHONY : example/没有main函数的C程序.c.s
+example/字符在字符串中出现的次数.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.s
+.PHONY : example/字符在字符串中出现的次数.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/没有main函数的C程序.o"
-	@echo "... example/没有main函数的C程序.i"
-	@echo "... example/没有main函数的C程序.s"
+	@echo "... example/字符在字符串中出现的次数.o"
+	@echo "... example/字符在字符串中出现的次数.i"
+	@echo "... example/字符在字符串中出现的次数.s"
 .PHONY : help
 
 
