@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/字符在字符串中出现的次数.c
-string.h
--
+/home/HouXinLin/project/c/C-Example/example/改变printf的输出.c
 stdio.h
 -
 

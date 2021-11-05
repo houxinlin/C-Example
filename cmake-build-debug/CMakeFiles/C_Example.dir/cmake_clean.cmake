@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.o"
+  "CMakeFiles/C_Example.dir/example/改变printf的输出.c.o"
   "C_Example"
   "C_Example.pdb"
 )

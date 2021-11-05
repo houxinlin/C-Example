@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/HouXinLin/project/c/C-Example/example/字符在字符串中出现的次数.c" "/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.o"
+  "/home/HouXinLin/project/c/C-Example/example/改变printf的输出.c" "/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles/C_Example.dir/example/改变printf的输出.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

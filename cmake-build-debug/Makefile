@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/字符在字符串中出现的次数.o: example/字符在字符串中出现的次数.c.o
-.PHONY : example/字符在字符串中出现的次数.o
+example/改变printf的输出.o: example/改变printf的输出.c.o
+.PHONY : example/改变printf的输出.o
 
 # target to build an object file
-example/字符在字符串中出现的次数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.o
-.PHONY : example/字符在字符串中出现的次数.c.o
+example/改变printf的输出.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.o
+.PHONY : example/改变printf的输出.c.o
 
-example/字符在字符串中出现的次数.i: example/字符在字符串中出现的次数.c.i
-.PHONY : example/字符在字符串中出现的次数.i
+example/改变printf的输出.i: example/改变printf的输出.c.i
+.PHONY : example/改变printf的输出.i
 
 # target to preprocess a source file
-example/字符在字符串中出现的次数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.i
-.PHONY : example/字符在字符串中出现的次数.c.i
+example/改变printf的输出.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.i
+.PHONY : example/改变printf的输出.c.i
 
-example/字符在字符串中出现的次数.s: example/字符在字符串中出现的次数.c.s
-.PHONY : example/字符在字符串中出现的次数.s
+example/改变printf的输出.s: example/改变printf的输出.c.s
+.PHONY : example/改变printf的输出.s
 
 # target to generate assembly for a file
-example/字符在字符串中出现的次数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符在字符串中出现的次数.c.s
-.PHONY : example/字符在字符串中出现的次数.c.s
+example/改变printf的输出.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.s
+.PHONY : example/改变printf的输出.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/字符在字符串中出现的次数.o"
-	@echo "... example/字符在字符串中出现的次数.i"
-	@echo "... example/字符在字符串中出现的次数.s"
+	@echo "... example/改变printf的输出.o"
+	@echo "... example/改变printf的输出.i"
+	@echo "... example/改变printf的输出.s"
 .PHONY : help
 
 
