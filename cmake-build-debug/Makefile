@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/获取当前c程序源码.o: example/获取当前c程序源码.c.o
-.PHONY : example/获取当前c程序源码.o
+example/顺序表.o: example/顺序表.c.o
+.PHONY : example/顺序表.o
 
 # target to build an object file
-example/获取当前c程序源码.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前c程序源码.c.o
-.PHONY : example/获取当前c程序源码.c.o
+example/顺序表.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.o
+.PHONY : example/顺序表.c.o
 
-example/获取当前c程序源码.i: example/获取当前c程序源码.c.i
-.PHONY : example/获取当前c程序源码.i
+example/顺序表.i: example/顺序表.c.i
+.PHONY : example/顺序表.i
 
 # target to preprocess a source file
-example/获取当前c程序源码.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前c程序源码.c.i
-.PHONY : example/获取当前c程序源码.c.i
+example/顺序表.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.i
+.PHONY : example/顺序表.c.i
 
-example/获取当前c程序源码.s: example/获取当前c程序源码.c.s
-.PHONY : example/获取当前c程序源码.s
+example/顺序表.s: example/顺序表.c.s
+.PHONY : example/顺序表.s
 
 # target to generate assembly for a file
-example/获取当前c程序源码.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前c程序源码.c.s
-.PHONY : example/获取当前c程序源码.c.s
+example/顺序表.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.s
+.PHONY : example/顺序表.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/获取当前c程序源码.o"
-	@echo "... example/获取当前c程序源码.i"
-	@echo "... example/获取当前c程序源码.s"
+	@echo "... example/顺序表.o"
+	@echo "... example/顺序表.i"
+	@echo "... example/顺序表.s"
 .PHONY : help
 
 

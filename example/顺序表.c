@@ -17,7 +17,7 @@ typedef struct {
  * @param table
  */
 void initLineTable(LineTable *table) {
-    //对data进行内存空间分配，10 * sizeof(int)可以存放10个int
+    //对data进行内存空间分配，10 * sizeof(int)可以存放10个int，当存放第11个时候需要扩容
     table->data = (int *) malloc(10 * sizeof(int));
     //当前存放的数量
     table->size = 0;
@@ -34,11 +34,10 @@ void initLineTable(LineTable *table) {
  */
 void insertValue(LineTable *table, int value, int pos) {
     /**
-     * 如果插入的位置大于容量-1,或者小于0，则输入不对
      *
-     * 因为下表从0开始，所以最大的下标就是容量-1，
+     * 判断当前插入位置是否合法
      */
-    if (pos > table->cap - 1 || pos < 0) {
+    if (pos > table->size  || pos < 0) {
         return;
     }
     /**
@@ -105,17 +104,11 @@ void main() {
     for (int i = 0; i < 5; ++i) {
         insertValue(&lineData,1,0);
     }
-    printTable(&lineData);
-    /**
-     * 插入5个元素，结果为2 2 2 2 2 1 1 1 1 1
-     */
-    for (int i = 0; i < 5; ++i) {
-        insertValue(&lineData,2,0);
-    }
-    printTable(&lineData);
+    insertValue(&lineData,10,6);
+    insertValue(&lineData,22,5);
+    insertValue(&lineData,11,2);
 
-    deleteValue(&lineData,1);
-
+    deleteValue(&lineData,2);
     printTable(&lineData);
 
 }
