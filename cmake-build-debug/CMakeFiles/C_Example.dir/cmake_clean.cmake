@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Example.dir/example/顺序表.c.o"
+  "CMakeFiles/C_Example.dir/example/获取当前c程序源码.c.o"
   "C_Example"
   "C_Example.pdb"
 )
