@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/HouXinLin/project/c/C-Example/example/改变printf的输出.c">
+		<Unit filename="/home/HouXinLin/project/c/C-Example/example/顺序表.c">
 			<Option target="C_Example"/>
 		</Unit>
 		<Unit filename="/home/HouXinLin/project/c/C-Example/CMakeLists.txt">

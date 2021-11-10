@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/改变printf的输出.o: example/改变printf的输出.c.o
-.PHONY : example/改变printf的输出.o
+example/顺序表.o: example/顺序表.c.o
+.PHONY : example/顺序表.o
 
 # target to build an object file
-example/改变printf的输出.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.o
-.PHONY : example/改变printf的输出.c.o
+example/顺序表.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.o
+.PHONY : example/顺序表.c.o
 
-example/改变printf的输出.i: example/改变printf的输出.c.i
-.PHONY : example/改变printf的输出.i
+example/顺序表.i: example/顺序表.c.i
+.PHONY : example/顺序表.i
 
 # target to preprocess a source file
-example/改变printf的输出.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.i
-.PHONY : example/改变printf的输出.c.i
+example/顺序表.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.i
+.PHONY : example/顺序表.c.i
 
-example/改变printf的输出.s: example/改变printf的输出.c.s
-.PHONY : example/改变printf的输出.s
+example/顺序表.s: example/顺序表.c.s
+.PHONY : example/顺序表.s
 
 # target to generate assembly for a file
-example/改变printf的输出.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/改变printf的输出.c.s
-.PHONY : example/改变printf的输出.c.s
+example/顺序表.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.s
+.PHONY : example/顺序表.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/改变printf的输出.o"
-	@echo "... example/改变printf的输出.i"
-	@echo "... example/改变printf的输出.s"
+	@echo "... example/顺序表.o"
+	@echo "... example/顺序表.i"
+	@echo "... example/顺序表.s"
 .PHONY : help
 
 
