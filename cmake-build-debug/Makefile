@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/socket示例.o: example/socket示例.c.o
-.PHONY : example/socket示例.o
+example/单链表.o: example/单链表.c.o
+.PHONY : example/单链表.o
 
 # target to build an object file
-example/socket示例.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.o
-.PHONY : example/socket示例.c.o
+example/单链表.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.o
+.PHONY : example/单链表.c.o
 
-example/socket示例.i: example/socket示例.c.i
-.PHONY : example/socket示例.i
+example/单链表.i: example/单链表.c.i
+.PHONY : example/单链表.i
 
 # target to preprocess a source file
-example/socket示例.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.i
-.PHONY : example/socket示例.c.i
+example/单链表.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.i
+.PHONY : example/单链表.c.i
 
-example/socket示例.s: example/socket示例.c.s
-.PHONY : example/socket示例.s
+example/单链表.s: example/单链表.c.s
+.PHONY : example/单链表.s
 
 # target to generate assembly for a file
-example/socket示例.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.s
-.PHONY : example/socket示例.c.s
+example/单链表.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.s
+.PHONY : example/单链表.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/socket示例.o"
-	@echo "... example/socket示例.i"
-	@echo "... example/socket示例.s"
+	@echo "... example/单链表.o"
+	@echo "... example/单链表.i"
+	@echo "... example/单链表.s"
 .PHONY : help
 
 

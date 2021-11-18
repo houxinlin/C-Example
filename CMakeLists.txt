@@ -3,4 +3,4 @@ project(C_Example C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(C_Example 熟悉)
+add_executable(C_Example example/单链表.c)
