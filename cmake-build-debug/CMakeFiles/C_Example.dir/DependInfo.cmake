@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/HouXinLin/project/c/C-Example/example/顺序表.c" "/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles/C_Example.dir/example/顺序表.c.o"
+  "/home/HouXinLin/project/c/C-Example/example/socket示例.c" "/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles/C_Example.dir/example/socket示例.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

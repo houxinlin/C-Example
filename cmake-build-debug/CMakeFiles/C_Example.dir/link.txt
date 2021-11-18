@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/C_Example.dir/example/顺序表.c.o -o C_Example 
+/usr/bin/cc -g CMakeFiles/C_Example.dir/example/socket示例.c.o -o C_Example 

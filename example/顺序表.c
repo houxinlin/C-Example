@@ -137,4 +137,10 @@ void main() {
 
     printTable(&lineData);
 
+    int *i =(int *) malloc(6120000000);
+
+    if(i==NULL){
+        printf("a");
+    }
+
 }

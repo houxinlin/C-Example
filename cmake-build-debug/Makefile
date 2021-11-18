@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/顺序表.o: example/顺序表.c.o
-.PHONY : example/顺序表.o
+example/socket示例.o: example/socket示例.c.o
+.PHONY : example/socket示例.o
 
 # target to build an object file
-example/顺序表.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.o
-.PHONY : example/顺序表.c.o
+example/socket示例.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.o
+.PHONY : example/socket示例.c.o
 
-example/顺序表.i: example/顺序表.c.i
-.PHONY : example/顺序表.i
+example/socket示例.i: example/socket示例.c.i
+.PHONY : example/socket示例.i
 
 # target to preprocess a source file
-example/顺序表.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.i
-.PHONY : example/顺序表.c.i
+example/socket示例.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.i
+.PHONY : example/socket示例.c.i
 
-example/顺序表.s: example/顺序表.c.s
-.PHONY : example/顺序表.s
+example/socket示例.s: example/socket示例.c.s
+.PHONY : example/socket示例.s
 
 # target to generate assembly for a file
-example/顺序表.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/顺序表.c.s
-.PHONY : example/顺序表.c.s
+example/socket示例.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/socket示例.c.s
+.PHONY : example/socket示例.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/顺序表.o"
-	@echo "... example/顺序表.i"
-	@echo "... example/顺序表.s"
+	@echo "... example/socket示例.o"
+	@echo "... example/socket示例.i"
+	@echo "... example/socket示例.s"
 .PHONY : help
 
 

@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/顺序表.c
+/home/HouXinLin/project/c/C-Example/example/socket示例.c
+unistd.h
+-
 stdio.h
 -
-malloc.h
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
 -
 
