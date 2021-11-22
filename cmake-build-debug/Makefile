@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/单链表.o: example/单链表.c.o
-.PHONY : example/单链表.o
+example/栈反转字符.o: example/栈反转字符.c.o
+.PHONY : example/栈反转字符.o
 
 # target to build an object file
-example/单链表.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.o
-.PHONY : example/单链表.c.o
+example/栈反转字符.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.o
+.PHONY : example/栈反转字符.c.o
 
-example/单链表.i: example/单链表.c.i
-.PHONY : example/单链表.i
+example/栈反转字符.i: example/栈反转字符.c.i
+.PHONY : example/栈反转字符.i
 
 # target to preprocess a source file
-example/单链表.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.i
-.PHONY : example/单链表.c.i
+example/栈反转字符.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.i
+.PHONY : example/栈反转字符.c.i
 
-example/单链表.s: example/单链表.c.s
-.PHONY : example/单链表.s
+example/栈反转字符.s: example/栈反转字符.c.s
+.PHONY : example/栈反转字符.s
 
 # target to generate assembly for a file
-example/单链表.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/单链表.c.s
-.PHONY : example/单链表.c.s
+example/栈反转字符.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.s
+.PHONY : example/栈反转字符.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/单链表.o"
-	@echo "... example/单链表.i"
-	@echo "... example/单链表.s"
+	@echo "... example/栈反转字符.o"
+	@echo "... example/栈反转字符.i"
+	@echo "... example/栈反转字符.s"
 .PHONY : help
 
 

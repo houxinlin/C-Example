@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/单链表.c
-malloc.h
+/home/HouXinLin/project/c/C-Example/example/栈反转字符.c
+stdio.h
 -
-stdlib.h
+string.h
 -
 
