@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/栈反转字符.c
+/home/HouXinLin/project/c/C-Example/example/字符转十六进制.c
 stdio.h
 -
 string.h

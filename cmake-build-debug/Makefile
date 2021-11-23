@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/栈反转字符.o: example/栈反转字符.c.o
-.PHONY : example/栈反转字符.o
+example/字符转十六进制.o: example/字符转十六进制.c.o
+.PHONY : example/字符转十六进制.o
 
 # target to build an object file
-example/栈反转字符.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.o
-.PHONY : example/栈反转字符.c.o
+example/字符转十六进制.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符转十六进制.c.o
+.PHONY : example/字符转十六进制.c.o
 
-example/栈反转字符.i: example/栈反转字符.c.i
-.PHONY : example/栈反转字符.i
+example/字符转十六进制.i: example/字符转十六进制.c.i
+.PHONY : example/字符转十六进制.i
 
 # target to preprocess a source file
-example/栈反转字符.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.i
-.PHONY : example/栈反转字符.c.i
+example/字符转十六进制.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符转十六进制.c.i
+.PHONY : example/字符转十六进制.c.i
 
-example/栈反转字符.s: example/栈反转字符.c.s
-.PHONY : example/栈反转字符.s
+example/字符转十六进制.s: example/字符转十六进制.c.s
+.PHONY : example/字符转十六进制.s
 
 # target to generate assembly for a file
-example/栈反转字符.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/栈反转字符.c.s
-.PHONY : example/栈反转字符.c.s
+example/字符转十六进制.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符转十六进制.c.s
+.PHONY : example/字符转十六进制.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/栈反转字符.o"
-	@echo "... example/栈反转字符.i"
-	@echo "... example/栈反转字符.s"
+	@echo "... example/字符转十六进制.o"
+	@echo "... example/字符转十六进制.i"
+	@echo "... example/字符转十六进制.s"
 .PHONY : help
 
 
