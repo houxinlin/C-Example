@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Example.dir/example/字符转十六进制.c.o"
+  "CMakeFiles/C_Example.dir/example/Thread.c.o"
   "C_Example"
   "C_Example.pdb"
 )

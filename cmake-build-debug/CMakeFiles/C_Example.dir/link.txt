@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/C_Example.dir/example/字符转十六进制.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/Thread.c.o -o C_Example 

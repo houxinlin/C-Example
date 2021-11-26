@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/字符转十六进制.c
+/home/HouXinLin/project/c/C-Example/example/Thread.c
 stdio.h
 -
-string.h
+pthread.h
+-
+sys/types.h
+-
+threads.h
 -
 

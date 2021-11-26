@@ -66,27 +66,27 @@ include CMakeFiles/C_Example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_Example.dir/flags.make
 
-CMakeFiles/C_Example.dir/example/字符转十六进制.c.o: CMakeFiles/C_Example.dir/flags.make
-CMakeFiles/C_Example.dir/example/字符转十六进制.c.o: ../example/字符转十六进制.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_Example.dir/example/字符转十六进制.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_Example.dir/example/字符转十六进制.c.o -c /home/HouXinLin/project/c/C-Example/example/字符转十六进制.c
+CMakeFiles/C_Example.dir/example/Thread.c.o: CMakeFiles/C_Example.dir/flags.make
+CMakeFiles/C_Example.dir/example/Thread.c.o: ../example/Thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_Example.dir/example/Thread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_Example.dir/example/Thread.c.o -c /home/HouXinLin/project/c/C-Example/example/Thread.c
 
-CMakeFiles/C_Example.dir/example/字符转十六进制.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Example.dir/example/字符转十六进制.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/HouXinLin/project/c/C-Example/example/字符转十六进制.c > CMakeFiles/C_Example.dir/example/字符转十六进制.c.i
+CMakeFiles/C_Example.dir/example/Thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Example.dir/example/Thread.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/HouXinLin/project/c/C-Example/example/Thread.c > CMakeFiles/C_Example.dir/example/Thread.c.i
 
-CMakeFiles/C_Example.dir/example/字符转十六进制.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Example.dir/example/字符转十六进制.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/HouXinLin/project/c/C-Example/example/字符转十六进制.c -o CMakeFiles/C_Example.dir/example/字符转十六进制.c.s
+CMakeFiles/C_Example.dir/example/Thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Example.dir/example/Thread.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/HouXinLin/project/c/C-Example/example/Thread.c -o CMakeFiles/C_Example.dir/example/Thread.c.s
 
 # Object files for target C_Example
 C_Example_OBJECTS = \
-"CMakeFiles/C_Example.dir/example/字符转十六进制.c.o"
+"CMakeFiles/C_Example.dir/example/Thread.c.o"
 
 # External object files for target C_Example
 C_Example_EXTERNAL_OBJECTS =
 
-C_Example: CMakeFiles/C_Example.dir/example/字符转十六进制.c.o
+C_Example: CMakeFiles/C_Example.dir/example/Thread.c.o
 C_Example: CMakeFiles/C_Example.dir/build.make
 C_Example: CMakeFiles/C_Example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C_Example"
