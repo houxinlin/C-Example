@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/Thread.c
+/home/HouXinLin/project/c/C-Example/example/计算字符串中单词出现个数.c
 stdio.h
 -
-pthread.h
--
-sys/types.h
--
-threads.h
+string.h
 -
 

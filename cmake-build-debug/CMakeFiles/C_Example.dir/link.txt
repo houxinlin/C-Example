@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/Thread.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.o -o C_Example 

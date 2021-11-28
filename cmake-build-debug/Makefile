@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/Thread.o: example/Thread.c.o
-.PHONY : example/Thread.o
+example/计算字符串中单词出现个数.o: example/计算字符串中单词出现个数.c.o
+.PHONY : example/计算字符串中单词出现个数.o
 
 # target to build an object file
-example/Thread.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/Thread.c.o
-.PHONY : example/Thread.c.o
+example/计算字符串中单词出现个数.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.o
+.PHONY : example/计算字符串中单词出现个数.c.o
 
-example/Thread.i: example/Thread.c.i
-.PHONY : example/Thread.i
+example/计算字符串中单词出现个数.i: example/计算字符串中单词出现个数.c.i
+.PHONY : example/计算字符串中单词出现个数.i
 
 # target to preprocess a source file
-example/Thread.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/Thread.c.i
-.PHONY : example/Thread.c.i
+example/计算字符串中单词出现个数.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.i
+.PHONY : example/计算字符串中单词出现个数.c.i
 
-example/Thread.s: example/Thread.c.s
-.PHONY : example/Thread.s
+example/计算字符串中单词出现个数.s: example/计算字符串中单词出现个数.c.s
+.PHONY : example/计算字符串中单词出现个数.s
 
 # target to generate assembly for a file
-example/Thread.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/Thread.c.s
-.PHONY : example/Thread.c.s
+example/计算字符串中单词出现个数.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.s
+.PHONY : example/计算字符串中单词出现个数.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/Thread.o"
-	@echo "... example/Thread.i"
-	@echo "... example/Thread.s"
+	@echo "... example/计算字符串中单词出现个数.o"
+	@echo "... example/计算字符串中单词出现个数.i"
+	@echo "... example/计算字符串中单词出现个数.s"
 .PHONY : help
 
 
