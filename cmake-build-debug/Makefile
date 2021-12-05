@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/计算字符串中单词出现个数.o: example/计算字符串中单词出现个数.c.o
-.PHONY : example/计算字符串中单词出现个数.o
+example/链式队列.o: example/链式队列.c.o
+.PHONY : example/链式队列.o
 
 # target to build an object file
-example/计算字符串中单词出现个数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.o
-.PHONY : example/计算字符串中单词出现个数.c.o
+example/链式队列.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.o
+.PHONY : example/链式队列.c.o
 
-example/计算字符串中单词出现个数.i: example/计算字符串中单词出现个数.c.i
-.PHONY : example/计算字符串中单词出现个数.i
+example/链式队列.i: example/链式队列.c.i
+.PHONY : example/链式队列.i
 
 # target to preprocess a source file
-example/计算字符串中单词出现个数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.i
-.PHONY : example/计算字符串中单词出现个数.c.i
+example/链式队列.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.i
+.PHONY : example/链式队列.c.i
 
-example/计算字符串中单词出现个数.s: example/计算字符串中单词出现个数.c.s
-.PHONY : example/计算字符串中单词出现个数.s
+example/链式队列.s: example/链式队列.c.s
+.PHONY : example/链式队列.s
 
 # target to generate assembly for a file
-example/计算字符串中单词出现个数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/计算字符串中单词出现个数.c.s
-.PHONY : example/计算字符串中单词出现个数.c.s
+example/链式队列.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.s
+.PHONY : example/链式队列.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/计算字符串中单词出现个数.o"
-	@echo "... example/计算字符串中单词出现个数.i"
-	@echo "... example/计算字符串中单词出现个数.s"
+	@echo "... example/链式队列.o"
+	@echo "... example/链式队列.i"
+	@echo "... example/链式队列.s"
 .PHONY : help
 
 

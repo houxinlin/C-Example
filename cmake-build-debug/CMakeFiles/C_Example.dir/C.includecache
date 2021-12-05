@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/计算字符串中单词出现个数.c
+/home/HouXinLin/project/c/C-Example/example/链式队列.c
 stdio.h
 -
-string.h
+stdlib.h
 -
 
