@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C_Example.dir/example/http-_服务.c.o"
   "CMakeFiles/C_Example.dir/example/链式队列.c.o"
   "C_Example"
   "C_Example.pdb"

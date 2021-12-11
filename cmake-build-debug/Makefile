@@ -129,6 +129,30 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
+example/http-_服务.o: example/http-_服务.c.o
+.PHONY : example/http-_服务.o
+
+# target to build an object file
+example/http-_服务.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.o
+.PHONY : example/http-_服务.c.o
+
+example/http-_服务.i: example/http-_服务.c.i
+.PHONY : example/http-_服务.i
+
+# target to preprocess a source file
+example/http-_服务.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.i
+.PHONY : example/http-_服务.c.i
+
+example/http-_服务.s: example/http-_服务.c.s
+.PHONY : example/http-_服务.s
+
+# target to generate assembly for a file
+example/http-_服务.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.s
+.PHONY : example/http-_服务.c.s
+
 example/链式队列.o: example/链式队列.c.o
 .PHONY : example/链式队列.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
+	@echo "... example/http-_服务.o"
+	@echo "... example/http-_服务.i"
+	@echo "... example/http-_服务.s"
 	@echo "... example/链式队列.o"
 	@echo "... example/链式队列.i"
 	@echo "... example/链式队列.s"
