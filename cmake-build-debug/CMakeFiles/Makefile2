@@ -81,12 +81,12 @@ clean: CMakeFiles/C_Example.dir/clean
 CMakeFiles/C_Example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target C_Example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target C_Example"
 .PHONY : CMakeFiles/C_Example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C_Example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_Example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HouXinLin/project/c/C-Example/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/C_Example.dir/rule

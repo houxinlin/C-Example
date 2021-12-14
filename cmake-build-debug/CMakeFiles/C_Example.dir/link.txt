@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/链式队列.c.o CMakeFiles/C_Example.dir/example/http-_服务.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/二叉树.c.o -o C_Example 

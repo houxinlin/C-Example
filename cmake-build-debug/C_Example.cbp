@@ -78,10 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/HouXinLin/project/c/C-Example/example/http- 服务.c">
-			<Option target="C_Example"/>
-		</Unit>
-		<Unit filename="/home/HouXinLin/project/c/C-Example/example/链式队列.c">
+		<Unit filename="/home/HouXinLin/project/c/C-Example/example/二叉树.c">
 			<Option target="C_Example"/>
 		</Unit>
 		<Unit filename="/home/HouXinLin/project/c/C-Example/CMakeLists.txt">

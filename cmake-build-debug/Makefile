@@ -129,53 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/http-_服务.o: example/http-_服务.c.o
-.PHONY : example/http-_服务.o
+example/二叉树.o: example/二叉树.c.o
+.PHONY : example/二叉树.o
 
 # target to build an object file
-example/http-_服务.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.o
-.PHONY : example/http-_服务.c.o
+example/二叉树.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.o
+.PHONY : example/二叉树.c.o
 
-example/http-_服务.i: example/http-_服务.c.i
-.PHONY : example/http-_服务.i
-
-# target to preprocess a source file
-example/http-_服务.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.i
-.PHONY : example/http-_服务.c.i
-
-example/http-_服务.s: example/http-_服务.c.s
-.PHONY : example/http-_服务.s
-
-# target to generate assembly for a file
-example/http-_服务.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/http-_服务.c.s
-.PHONY : example/http-_服务.c.s
-
-example/链式队列.o: example/链式队列.c.o
-.PHONY : example/链式队列.o
-
-# target to build an object file
-example/链式队列.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.o
-.PHONY : example/链式队列.c.o
-
-example/链式队列.i: example/链式队列.c.i
-.PHONY : example/链式队列.i
+example/二叉树.i: example/二叉树.c.i
+.PHONY : example/二叉树.i
 
 # target to preprocess a source file
-example/链式队列.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.i
-.PHONY : example/链式队列.c.i
+example/二叉树.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.i
+.PHONY : example/二叉树.c.i
 
-example/链式队列.s: example/链式队列.c.s
-.PHONY : example/链式队列.s
+example/二叉树.s: example/二叉树.c.s
+.PHONY : example/二叉树.s
 
 # target to generate assembly for a file
-example/链式队列.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/链式队列.c.s
-.PHONY : example/链式队列.c.s
+example/二叉树.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.s
+.PHONY : example/二叉树.c.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/http-_服务.o"
-	@echo "... example/http-_服务.i"
-	@echo "... example/http-_服务.s"
-	@echo "... example/链式队列.o"
-	@echo "... example/链式队列.i"
-	@echo "... example/链式队列.s"
+	@echo "... example/二叉树.o"
+	@echo "... example/二叉树.i"
+	@echo "... example/二叉树.s"
 .PHONY : help
 
 
