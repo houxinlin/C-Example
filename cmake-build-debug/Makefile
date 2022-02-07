@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/二叉树.o: example/二叉树.c.o
-.PHONY : example/二叉树.o
+example/字符串复制.o: example/字符串复制.c.o
+.PHONY : example/字符串复制.o
 
 # target to build an object file
-example/二叉树.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.o
-.PHONY : example/二叉树.c.o
+example/字符串复制.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.o
+.PHONY : example/字符串复制.c.o
 
-example/二叉树.i: example/二叉树.c.i
-.PHONY : example/二叉树.i
+example/字符串复制.i: example/字符串复制.c.i
+.PHONY : example/字符串复制.i
 
 # target to preprocess a source file
-example/二叉树.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.i
-.PHONY : example/二叉树.c.i
+example/字符串复制.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.i
+.PHONY : example/字符串复制.c.i
 
-example/二叉树.s: example/二叉树.c.s
-.PHONY : example/二叉树.s
+example/字符串复制.s: example/字符串复制.c.s
+.PHONY : example/字符串复制.s
 
 # target to generate assembly for a file
-example/二叉树.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/二叉树.c.s
-.PHONY : example/二叉树.c.s
+example/字符串复制.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.s
+.PHONY : example/字符串复制.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/二叉树.o"
-	@echo "... example/二叉树.i"
-	@echo "... example/二叉树.s"
+	@echo "... example/字符串复制.o"
+	@echo "... example/字符串复制.i"
+	@echo "... example/字符串复制.s"
 .PHONY : help
 
 

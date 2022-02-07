@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/二叉树.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/字符串复制.c.o -o C_Example 
