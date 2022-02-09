@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/字符串复制.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/ip地址.c.o -o C_Example 

@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/字符串复制.o: example/字符串复制.c.o
-.PHONY : example/字符串复制.o
+example/ip地址.o: example/ip地址.c.o
+.PHONY : example/ip地址.o
 
 # target to build an object file
-example/字符串复制.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.o
-.PHONY : example/字符串复制.c.o
+example/ip地址.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.o
+.PHONY : example/ip地址.c.o
 
-example/字符串复制.i: example/字符串复制.c.i
-.PHONY : example/字符串复制.i
+example/ip地址.i: example/ip地址.c.i
+.PHONY : example/ip地址.i
 
 # target to preprocess a source file
-example/字符串复制.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.i
-.PHONY : example/字符串复制.c.i
+example/ip地址.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.i
+.PHONY : example/ip地址.c.i
 
-example/字符串复制.s: example/字符串复制.c.s
-.PHONY : example/字符串复制.s
+example/ip地址.s: example/ip地址.c.s
+.PHONY : example/ip地址.s
 
 # target to generate assembly for a file
-example/字符串复制.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/字符串复制.c.s
-.PHONY : example/字符串复制.c.s
+example/ip地址.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.s
+.PHONY : example/ip地址.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/字符串复制.o"
-	@echo "... example/字符串复制.i"
-	@echo "... example/字符串复制.s"
+	@echo "... example/ip地址.o"
+	@echo "... example/ip地址.i"
+	@echo "... example/ip地址.s"
 .PHONY : help
 
 
