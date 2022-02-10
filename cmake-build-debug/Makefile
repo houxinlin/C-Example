@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/ip地址.o: example/ip地址.c.o
-.PHONY : example/ip地址.o
+example/遍历目录.o: example/遍历目录.c.o
+.PHONY : example/遍历目录.o
 
 # target to build an object file
-example/ip地址.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.o
-.PHONY : example/ip地址.c.o
+example/遍历目录.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.o
+.PHONY : example/遍历目录.c.o
 
-example/ip地址.i: example/ip地址.c.i
-.PHONY : example/ip地址.i
+example/遍历目录.i: example/遍历目录.c.i
+.PHONY : example/遍历目录.i
 
 # target to preprocess a source file
-example/ip地址.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.i
-.PHONY : example/ip地址.c.i
+example/遍历目录.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.i
+.PHONY : example/遍历目录.c.i
 
-example/ip地址.s: example/ip地址.c.s
-.PHONY : example/ip地址.s
+example/遍历目录.s: example/遍历目录.c.s
+.PHONY : example/遍历目录.s
 
 # target to generate assembly for a file
-example/ip地址.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/ip地址.c.s
-.PHONY : example/ip地址.c.s
+example/遍历目录.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.s
+.PHONY : example/遍历目录.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/ip地址.o"
-	@echo "... example/ip地址.i"
-	@echo "... example/ip地址.s"
+	@echo "... example/遍历目录.o"
+	@echo "... example/遍历目录.i"
+	@echo "... example/遍历目录.s"
 .PHONY : help
 
 
