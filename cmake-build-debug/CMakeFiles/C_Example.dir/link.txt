@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/遍历目录.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/子字符串.c.o -o C_Example 

@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/遍历目录.o: example/遍历目录.c.o
-.PHONY : example/遍历目录.o
+example/子字符串.o: example/子字符串.c.o
+.PHONY : example/子字符串.o
 
 # target to build an object file
-example/遍历目录.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.o
-.PHONY : example/遍历目录.c.o
+example/子字符串.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/子字符串.c.o
+.PHONY : example/子字符串.c.o
 
-example/遍历目录.i: example/遍历目录.c.i
-.PHONY : example/遍历目录.i
+example/子字符串.i: example/子字符串.c.i
+.PHONY : example/子字符串.i
 
 # target to preprocess a source file
-example/遍历目录.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.i
-.PHONY : example/遍历目录.c.i
+example/子字符串.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/子字符串.c.i
+.PHONY : example/子字符串.c.i
 
-example/遍历目录.s: example/遍历目录.c.s
-.PHONY : example/遍历目录.s
+example/子字符串.s: example/子字符串.c.s
+.PHONY : example/子字符串.s
 
 # target to generate assembly for a file
-example/遍历目录.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/遍历目录.c.s
-.PHONY : example/遍历目录.c.s
+example/子字符串.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/子字符串.c.s
+.PHONY : example/子字符串.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/遍历目录.o"
-	@echo "... example/遍历目录.i"
-	@echo "... example/遍历目录.s"
+	@echo "... example/子字符串.o"
+	@echo "... example/子字符串.i"
+	@echo "... example/子字符串.s"
 .PHONY : help
 
 
