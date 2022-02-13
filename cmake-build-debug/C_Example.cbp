@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/HouXinLin/project/c/C-Example/example/子字符串.c">
+		<Unit filename="/home/HouXinLin/project/c/C-Example/example/数组合并.c">
 			<Option target="C_Example"/>
 		</Unit>
 		<Unit filename="/home/HouXinLin/project/c/C-Example/CMakeLists.txt">
