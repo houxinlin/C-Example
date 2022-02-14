@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Example.dir/example/数组合并.c.o"
+  "CMakeFiles/C_Example.dir/example/获取当前时间.c.o"
   "C_Example"
   "C_Example.pdb"
 )

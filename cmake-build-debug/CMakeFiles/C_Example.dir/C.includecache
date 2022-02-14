@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/HouXinLin/project/c/C-Example/example/数组合并.c
+/home/HouXinLin/project/c/C-Example/example/获取当前时间.c
 stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/select.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
 -
 

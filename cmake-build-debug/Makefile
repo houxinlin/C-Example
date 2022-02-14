@@ -129,29 +129,29 @@ C_Example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/build
 .PHONY : C_Example/fast
 
-example/数组合并.o: example/数组合并.c.o
-.PHONY : example/数组合并.o
+example/获取当前时间.o: example/获取当前时间.c.o
+.PHONY : example/获取当前时间.o
 
 # target to build an object file
-example/数组合并.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/数组合并.c.o
-.PHONY : example/数组合并.c.o
+example/获取当前时间.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前时间.c.o
+.PHONY : example/获取当前时间.c.o
 
-example/数组合并.i: example/数组合并.c.i
-.PHONY : example/数组合并.i
+example/获取当前时间.i: example/获取当前时间.c.i
+.PHONY : example/获取当前时间.i
 
 # target to preprocess a source file
-example/数组合并.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/数组合并.c.i
-.PHONY : example/数组合并.c.i
+example/获取当前时间.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前时间.c.i
+.PHONY : example/获取当前时间.c.i
 
-example/数组合并.s: example/数组合并.c.s
-.PHONY : example/数组合并.s
+example/获取当前时间.s: example/获取当前时间.c.s
+.PHONY : example/获取当前时间.s
 
 # target to generate assembly for a file
-example/数组合并.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/数组合并.c.s
-.PHONY : example/数组合并.c.s
+example/获取当前时间.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Example.dir/build.make CMakeFiles/C_Example.dir/example/获取当前时间.c.s
+.PHONY : example/获取当前时间.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_Example"
-	@echo "... example/数组合并.o"
-	@echo "... example/数组合并.i"
-	@echo "... example/数组合并.s"
+	@echo "... example/获取当前时间.o"
+	@echo "... example/获取当前时间.i"
+	@echo "... example/获取当前时间.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/数组合并.c.o -o C_Example 
+/usr/bin/cc -pthread -g CMakeFiles/C_Example.dir/example/获取当前时间.c.o -o C_Example 
